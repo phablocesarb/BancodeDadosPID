@@ -1,13 +1,15 @@
 package com.prav.BancodeDadosPID;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootTest
-class BancodeDadosPidApplicationTests {
-
-	@Test
-	void contextLoads() {
+@SpringBootApplication
+class BancodeDadosPidApplication {
+public class BancodeDadosPIDApplication{
+	public static void main(String[] args) {
+		SpringApplication.run(BancodeDadosPidApplication.class, args);
 	}
+
+}
 
 }
