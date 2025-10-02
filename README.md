@@ -133,4 +133,4 @@ http://localhost:8060
 
 ## 🤝 Contribuição
 Sinta-se à vontade para abrir issues e pull requests.  
-Projeto desenvolvido com fins acadêmicos para disciplina de **Desenvolvimento Web I**.
+Projeto desenvolvido com fins acadêmicos para disciplina de **Praticas Interdisciplinares**.
