@@ -62,7 +62,7 @@ mvn spring-boot:run
 
 4. A API ficará disponível em:
 ```
-http://localhost:8080
+http://localhost:8060
 ```
 
 ---
