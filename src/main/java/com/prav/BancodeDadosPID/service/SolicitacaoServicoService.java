@@ -1,12 +1,12 @@
-package com.prav.service;
+package com.prav.BancodeDadosPID.service;
 
 import java.time.LocalDateTime;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.prav.model.SolicitacaoServico;
-import com.prav.repository.SolicitacaoServicoRepository;
+import com.prav.BancodeDadosPID.model.SolicitacaoServico;
+import com.prav.BancodeDadosPID.repository.SolicitacaoServicoRepository;
 
 @Service
 public class SolicitacaoServicoService {

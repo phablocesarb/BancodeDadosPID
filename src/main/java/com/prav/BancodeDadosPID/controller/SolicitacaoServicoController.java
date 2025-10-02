@@ -1,4 +1,4 @@
-package com.prav.controller;
+package com.prav.BancodeDadosPID.controller;
 
 import java.util.List;
 import java.util.Map;
@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.prav.model.SolicitacaoServico;
-import com.prav.service.SolicitacaoServicoService;
+import com.prav.BancodeDadosPID.model.SolicitacaoServico;
+import com.prav.BancodeDadosPID.service.SolicitacaoServicoService;
 
 @RestController
 @RequestMapping("/solicitacoes")

@@ -1,4 +1,4 @@
-package com.prav.model;
+package com.prav.BancodeDadosPID.model;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

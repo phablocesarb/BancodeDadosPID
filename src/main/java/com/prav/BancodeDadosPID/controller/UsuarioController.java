@@ -1,4 +1,4 @@
-package com.prav.controller;
+package com.prav.BancodeDadosPID.controller;
 
 import java.util.List;
 
@@ -11,32 +11,33 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.prav.model.Servico;
-import com.prav.service.ServicoService;
+import com.prav.BancodeDadosPID.model.Usuario;
+import com.prav.BancodeDadosPID.service.UsuarioService;
 
 @RestController
-@RequestMapping("/servicos")
-public class ServicoController {
-    private final ServicoService service;
+@RequestMapping("/usuarios")
+public class UsuarioController {
 
-    public ServicoController(ServicoService service) {
+    private final UsuarioService service;
+
+    public UsuarioController(UsuarioService service) {
         this.service = service;
     }
 
     @GetMapping
-    public List<Servico> listar() {
+    public List<Usuario> listar() {
         return service.listar();
     }
 
     @PostMapping
-    public Servico criar(@RequestBody Servico servico) {
-        return service.salvar(servico);
+    public Usuario criar(@RequestBody Usuario usuario) {
+        return service.salvar(usuario);
     }
 
     @PutMapping("/{id}")
-    public Servico atualizar(@PathVariable Long id, @RequestBody Servico servico) {
-        servico.setIdServico(id);
-        return service.salvar(servico);
+    public Usuario atualizar(@PathVariable Long id, @RequestBody Usuario usuario) {
+        usuario.setIdUsuario(id);
+        return service.salvar(usuario);
     }
 
     @DeleteMapping("/{id}")

@@ -1,11 +1,11 @@
-package com.prav.service;
+package com.prav.BancodeDadosPID.service;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.prav.model.Servico;
-import com.prav.repository.ServicoRepository;
+import com.prav.BancodeDadosPID.model.Servico;
+import com.prav.BancodeDadosPID.repository.ServicoRepository;
 
 @Service
 public class ServicoService {

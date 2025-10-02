@@ -1,6 +1,6 @@
-package com.prav.repository;
+package com.prav.BancodeDadosPID.repository;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.prav.model.SolicitacaoServico;
+import com.prav.BancodeDadosPID.model.SolicitacaoServico;
 
 public interface SolicitacaoServicoRepository extends JpaRepository<SolicitacaoServico, Long> {}

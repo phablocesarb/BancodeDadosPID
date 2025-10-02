@@ -1,11 +1,11 @@
-package com.prav.service;
+package com.prav.BancodeDadosPID.service;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.prav.model.Usuario;
-import com.prav.repository.UsuarioRepository;
+import com.prav.BancodeDadosPID.model.Usuario;
+import com.prav.BancodeDadosPID.repository.UsuarioRepository;
 
 @Service
 public class UsuarioService {
